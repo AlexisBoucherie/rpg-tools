@@ -14,40 +14,40 @@
     <form action="map.php" method="post">
         <h2>Parameters:</h2>
         <p>How much do you want of each terrain type? (in %)</p>
-        <div>
+        <div class="rows">
             <label for="plain">Plains:</label>
             <input type="number" id="plain" name="plain">
         </div>
-        <div>
+        <div class="rows">
             <label for="hill">Hills:</label>
             <input type="number" id="hill" name="hill">
         </div>
-        <div>
+        <div class="rows">
             <label for="forest">Forests:</label>
             <input type="number" id="forest" name="forest">
         </div>
-        <div>
+        <div class="rows">
             <label for="mountain">Mountains:</label>
             <input type="number" id="mountain" name="mountain">
         </div>
-        <div>
+        <div class="rows">
             <label for="lake">Lakes:</label>
             <input type="number" id="lake" name="lake">
         </div>
-        <div>
+        <div class="rows">
             <label for="swamp">Swamps:</label>
             <input type="number" id="swamp" name="swamp">
         </div>
-        <div>
+        <div class="rows">
             <label for="desert">Deserts:</label>
             <input type="number" id="desert" name="desert">
         </div>
-        <div>
+        <div class="rows">
             <label for="volcano">Volcanoes:</label>
             <input type="number" id="volcano" name="volcano">
         </div>
-        <div class="percentage">
-            <span id="totalPercentage"></span><span> /100</span>
+        <div id="percentage-div">
+            <div id="total-percentage"></div><div> /100</div>
         </div>
         <p>What size is your map? (in squares)</p>
         <div>

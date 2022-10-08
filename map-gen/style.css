@@ -31,8 +31,8 @@ form div {
     justify-content: space-between;
 }
 
-form div:nth-child(even) {
-    background-color: #d5d3d3;
+.rows:nth-child(odd) {
+    background-color: #d7c8a7;
 }
 
 input {
@@ -44,8 +44,18 @@ input {
     padding: 2px 5px;
 }
 
-.totalPercentage {
+.percentage-div {
+    display: flex;
+    align-items: end;
+}
 
+.percentage-div span {
+    display: block;
+    border: 1px solid red;
+}
+
+.too-high {
+    background-color: #ff9966;
 }
 
 /**** TABLE design ****/
