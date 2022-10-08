@@ -8,11 +8,46 @@ h1 {
     margin: 10px 0;
 }
 
+/**** FORM design ****/
+
+.form-container {
+    display: flex;
+    justify-content: center;
+}
+
+form {
+    width: 50vw;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+h2, p {
+    margin: 10px 0;
+}
+
+form div {
+    padding: 2px;
+    display: flex;
+    justify-content: space-between;
+}
+
+form div:nth-child(even) {
+    background-color: #d5d3d3;
+}
+
+input {
+    width: 15vw;
+}
+
+#submit {
+    margin: 10px auto;
+    padding: 2px 5px;
+}
+
 /**** TABLE design ****/
 
 table {
-    margin: 20px auto 0;
-    border: 3px dotted black;
+    margin: 50px auto 0;
 }
 
 td {
@@ -24,7 +59,7 @@ td {
 /**** CELLS design ****/
 
 .hill {
-    background-color: #7CFC00;
+    background-color: #90EE90;
     background-image: url("img/hills.png");
     background-size: cover;
 }
