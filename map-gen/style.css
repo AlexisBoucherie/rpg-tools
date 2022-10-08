@@ -23,42 +23,48 @@ td {
 
 /**** CELLS design ****/
 
-.canyon {
-    background-color: #BDB76B;
-}
-
 .hill {
     background-color: #7CFC00;
+    background-image: url("img/hills.png");
+    background-size: cover;
 }
 
 .desert {
     background-color: #F4A460;
+    background-image: url("img/desert.png");
+    background-size: cover;
 }
 
 .forest {
     background-color: #008000;
+    background-image: url("img/forest.png");
+    background-size: cover;
 }
 
 .lake {
-    background-color: #AFEEEE;
+    background-color: #90EE90;
+    background-image: url("img/lake.png");
+    background-size: cover;
 }
 
 .swamp {
-    background-color: #8FBC8B;
+    background-color: #9d7269;
+    background-image: url("img/swamp.png");
+    background-size: cover;
 }
 
 .mountain {
     background-color: #A9A9A9;
+    background-image: url("img/mountain.png");
+    background-size: cover;
 }
 
 .plain {
     background-color: #90EE90;
 }
 
-.river {
-    background-color: #E0FFFF;
-}
-
 .volcano {
     background-color: #FF4500;
+    background-image: url("img/volcano.png");
+    background-size: cover;
 }
