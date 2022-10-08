@@ -46,6 +46,9 @@
             <label for="volcano">Volcanoes:</label>
             <input type="number" id="volcano" name="volcano">
         </div>
+        <div class="percentage">
+            <span id="totalPercentage"></span><span> /100</span>
+        </div>
         <p>What size is your map? (in squares)</p>
         <div>
             <label for="gridsize">Grid Size:</label>
@@ -56,5 +59,6 @@
         </div>
     </form>
 </div>
+<script src="script.js"></script>
 </body>
 </html>
