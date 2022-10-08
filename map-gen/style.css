@@ -3,8 +3,62 @@
     padding: 0;
 }
 
+h1 {
+    text-align: center;
+    margin: 10px 0;
+}
+
+/**** TABLE design ****/
+
+table {
+    margin: 20px auto 0;
+    border: 3px dotted black;
+}
+
 td {
     width: 40px;
     height: 40px;
     border: 1px solid black;
+}
+
+/**** CELLS design ****/
+
+.canyon {
+    background-color: #BDB76B;
+}
+
+.hill {
+    background-color: #7CFC00;
+}
+
+.desert {
+    background-color: #F4A460;
+}
+
+.forest {
+    background-color: #008000;
+}
+
+.lake {
+    background-color: #AFEEEE;
+}
+
+.swamp {
+    background-color: #8FBC8B;
+}
+
+.mountain {
+    background-color: #A9A9A9;
+}
+
+.plain {
+    background-color: #90EE90;
+}
+
+.river {
+    background-color: #E0FFFF;
+}
+
+.volcano {
+    background-color: #FF4500;
 }

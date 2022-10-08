@@ -9,6 +9,7 @@
     <title>RPG | Map Generator</title>
 </head>
 <body>
+<?php include "functions.php" ?>
 <h1>Random Map Generator</h1>
 <table>
     <?php
@@ -16,7 +17,7 @@
     for ($x = 0; $x < $gridSize; $x++) {
         echo "<tr>";
         for ($y = 0; $y < $gridSize; $y++) {
-            echo "<td></td>";
+            echo "<td class=" . terrainType() . "></td>";
         }
         echo "</tr>";
     }
