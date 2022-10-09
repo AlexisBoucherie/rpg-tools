@@ -40,11 +40,8 @@ function changePercentage() {
 // warn the user that the total is above 100%
 function warnUser() {
     let tempValue = parseInt(percentageCounter.innerText);
-    if (tempValue > 100) {
-        warningArea.classList.add("too-high");
-    }
-    if (tempValue <= 100) {
-        warningArea.classList.remove("too-high");
+    while (tempValue != 100) {
+        warningArea.classList.toggle("too-high");
     }
 }
 
