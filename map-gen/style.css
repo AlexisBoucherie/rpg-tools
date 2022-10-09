@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    text-decoration: none;
 }
 
 h1 {
@@ -11,7 +12,7 @@ h1 {
 
 /**** FORM design ****/
 
-.form-container {
+.form-container, .btn-container {
     display: flex;
     justify-content: center;
 }
@@ -44,8 +45,38 @@ input {
 }
 
 #submit {
+    width: fit-content;
     margin: 10px auto;
-    padding: 2px 5px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 1em;
+    color: white;
+    background-color: #e8443c;
+    border: 2px solid white;
+    box-shadow: 0px 0px 2px #e8443c;
+}
+
+#submit:hover {
+    color: #e8443c;
+    background-color: white;
+    border: 2px solid #e8443c;
+}
+
+a {
+    display: block;
+    margin: 0 auto;
+    color: white;
+    background-color: #e8443c;
+    padding: 5px 15px;
+    border-radius: 10px;
+    border: 2px solid white;
+}
+
+a:hover {
+    background-color: white;
+    color: #e8443c;
+    border: 2px solid #e8443c;
 }
 
 #percentage-div {
@@ -62,25 +93,27 @@ input {
 }
 
 .warning {
-    background-color: #da3c3c;
+    background-color: #e8443c;
     color: white;
     text-align: center;
     width: 75vw;
     margin: 10px auto;
+    padding: 10px;
     font-size: 1.5em;
+    border-radius: 20px;
 }
 
 /**** TABLE design ****/
 
 table {
-    margin: 50px auto 0;
+    margin: 30px auto;
     border-collapse: collapse;
     border: 3px solid black;
 }
 
 td {
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
     border: 1px solid black;
 }
 

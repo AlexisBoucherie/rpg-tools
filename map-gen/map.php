@@ -28,7 +28,9 @@
     }
     ?>
 </table>
-
+<div class="btn-container">
+    <a href="index.php">Go back</a>
+</div>
 </body>
 </html>
 

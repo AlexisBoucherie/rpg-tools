@@ -56,7 +56,7 @@
             <input type="number" id="gridesize" name="gridsize">
         </div>
         <div class="btn-container">
-            <input type="submit" id="submit" value="Submit">
+            <input type="submit" id="submit" value="Let's go!">
         </div>
     </form>
 </div>
