@@ -23,6 +23,7 @@ h1 {
 
 form {
     width: 50vw;
+    max-width: 300px;
     padding: 10px 20px;
     background-color: white;
     border: 1px solid black;
@@ -46,7 +47,8 @@ form div {
 }
 
 input {
-    width: 15vw;
+    width: 10vw;
+    max-width: 50px;
 }
 
 #submit {
