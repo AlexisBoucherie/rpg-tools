@@ -11,14 +11,14 @@ $squareNumber = intval($gridSize) * intval($gridSize);
 $terrainArray = [];
 
 // get terrain values after input
-$qtOfHill = (int) $_POST["hill"];
-$qtOfDesert = (int) $_POST["desert"];
-$qtOfForest = (int) $_POST["forest"];
-$qtOfLake = (int) $_POST["lake"];
-$qtOfSwamp = (int) $_POST["swamp"];
-$qtOfMountain = (int) $_POST["mountain"];
-$qtOfPlain = (int) $_POST["plain"];
-$qtOfVolcano = (int) $_POST["volcano"];
+$qtOfHill = (int)$_POST["hill"];
+$qtOfDesert = (int)$_POST["desert"];
+$qtOfForest = (int)$_POST["forest"];
+$qtOfLake = (int)$_POST["lake"];
+$qtOfSwamp = (int)$_POST["swamp"];
+$qtOfMountain = (int)$_POST["mountain"];
+$qtOfPlain = (int)$_POST["plain"];
+$qtOfVolcano = (int)$_POST["volcano"];
 
 $totalQuantity = $qtOfHill + $qtOfVolcano + $qtOfDesert + $qtOfForest + $qtOfLake + $qtOfMountain + $qtOfSwamp + $qtOfPlain;
 

@@ -11,7 +11,7 @@
 <body>
 <h1>Random Map Generator</h1>
 <div class="form-container">
-    <form action="map-script.php" method="post">
+    <form action="map.php" method="post">
         <h2>Parameters:</h2>
         <p>How much do you want of each terrain type? (in %)</p>
         <div class="rows">
@@ -47,7 +47,8 @@
             <input type="number" id="volcano" name="volcano">
         </div>
         <div id="percentage-div" class="">
-            <div id="total-percentage"></div><div> /100</div>
+            <div id="total-percentage"></div>
+            <div> /100</div>
         </div>
         <p>What size is your map? (in squares)</p>
         <div>

@@ -4,8 +4,9 @@
 }
 
 h1 {
+    color: #e8443c;
     text-align: center;
-    margin: 10px 0;
+    margin: 10px 0 20px;
 }
 
 /**** FORM design ****/
@@ -17,8 +18,10 @@ h1 {
 
 form {
     width: 50vw;
+    padding: 10px 20px;
     border: 1px solid black;
-    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 5px black;
 }
 
 h2, p {
@@ -26,13 +29,14 @@ h2, p {
 }
 
 form div {
-    padding: 2px;
+    padding: 5px;
     display: flex;
     justify-content: space-between;
+    border-radius: 10px;
 }
 
 .rows:nth-child(odd) {
-    background-color: #d7c8a7;
+    background-color: #cec2ae;
 }
 
 input {
@@ -70,58 +74,54 @@ input {
 
 table {
     margin: 50px auto 0;
+    border-collapse: collapse;
+    border: 3px solid black;
 }
 
 td {
-    width: 40px;
-    height: 40px;
+    width: 50px;
+    height: 50px;
     border: 1px solid black;
 }
 
 /**** CELLS design ****/
 
 .hill {
-    background-color: #90EE90;
-    background-image: url("img/hills.png");
+    background-image: url("img/hill.jpg");
     background-size: cover;
 }
 
 .desert {
-    background-color: #F4A460;
-    background-image: url("img/desert.png");
+    background-image: url("img/desert.jpg");
     background-size: cover;
 }
 
 .forest {
-    background-color: #008000;
-    background-image: url("img/forest.png");
+    background-image: url("img/forest.jpg");
     background-size: cover;
 }
 
 .lake {
-    background-color: #90EE90;
-    background-image: url("img/lake.png");
+    background-image: url("img/lake.jpg");
     background-size: cover;
 }
 
 .swamp {
-    background-color: #9d7269;
-    background-image: url("img/swamp.png");
+    background-image: url("img/swamp.jpg");
     background-size: cover;
 }
 
 .mountain {
-    background-color: #A9A9A9;
-    background-image: url("img/mountain.png");
+    background-image: url("img/mountain.jpg");
     background-size: cover;
 }
 
 .plain {
-    background-color: #90EE90;
+    background-image: url("img/plain.jpg");
+    background-size: cover;
 }
 
 .volcano {
-    background-color: #FF4500;
-    background-image: url("img/volcano.png");
+    background-image: url("img/volcano.jpg");
     background-size: cover;
 }
