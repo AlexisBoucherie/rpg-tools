@@ -32,18 +32,35 @@ function changePercentage() {
     let val6 = parseInt(swampInput.value);
     let val7 = parseInt(desertInput.value);
     let val8 = parseInt(volcanoInput.value);
+    if (isNaN(val1)) {
+        val1 = 0;
+    }
+    if (isNaN(val2)) {
+        val2 = 0;
+    }
+    if (isNaN(val3)) {
+        val3 = 0;
+    }
+    if (isNaN(val4)) {
+        val4 = 0;
+    }
+    if (isNaN(val5)) {
+        val5 = 0;
+    }
+    if (isNaN(val6)) {
+        val6 = 0;
+    }
+    if (isNaN(val7)) {
+        val7 = 0;
+    }
+    if (isNaN(val8)) {
+        val8 = 0;
+    }
     let total = val1 + val2 + val3 + val4 + val5 + val6 + val7 + val8;
     total = total.toString(10);
     percentageCounter.innerText = total;
 }
 
-// warn the user that the total is above 100%
-function warnUser() {
-    let tempValue = parseInt(percentageCounter.innerText);
-    while (tempValue != 100) {
-        warningArea.classList.toggle("too-high");
-    }
-}
 
 // --- EVENTS --- //
 
@@ -55,5 +72,3 @@ lakeInput.addEventListener("change", ev => changePercentage());
 swampInput.addEventListener("change", ev => changePercentage());
 desertInput.addEventListener("change", ev => changePercentage());
 volcanoInput.addEventListener("change", ev => changePercentage());
-
-percentageCounter.addEventListener("change", ev => warnUser());
