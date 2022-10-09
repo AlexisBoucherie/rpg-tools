@@ -50,9 +50,9 @@
             <div id="total-percentage"></div>
             <div> /100</div>
         </div>
-        <p>What size is your map? (in squares)</p>
+        <p>How many squares per side do you need?</p>
         <div>
-            <label for="gridsize">Grid Size:</label>
+            <label for="gridsize">Map size:</label>
             <input type="number" id="gridesize" name="gridsize">
         </div>
         <div class="btn-container">
