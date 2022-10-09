@@ -5,8 +5,18 @@
 
 h1, h2 {
     text-align: center;
-    margin: 10px;
+    margin: 10px 0;
     color: #e8443c;
+}
+
+h3 {
+    font-size: 1em;
+    margin: 10px 0;
+}
+
+p {
+    font-size: 1.2em;
+    margin-left: 20px;
 }
 
 .quest {
