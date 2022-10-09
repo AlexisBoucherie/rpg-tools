@@ -23,10 +23,8 @@ $qtOfVolcano = (int)$_POST["volcano"];
 $totalQuantity = $qtOfHill + $qtOfVolcano + $qtOfDesert + $qtOfForest + $qtOfLake + $qtOfMountain + $qtOfSwamp + $qtOfPlain;
 
 //check that the sum of each terrain type is at least 100%
-if ($totalQuantity < 100) {
-    echo "<div class='warning'><p>The sum of each terrain type is LESS than 100%, sorry...</p></div>";
-} elseif ($totalQuantity > 100) {
-    echo "<div class='warning'><p>The sum of each terrain type is MORE than 100%, sorry...</p></div>";
+if ($totalQuantity < 100 || $totalQuantity > 100) {
+    echo "<div class='warning'><p>Oops... The sum of each terrain type must be equal to 100%, sorry!</p></div>";
 } else {
 
     // set terrain proportion/quantity in percentage (%)
