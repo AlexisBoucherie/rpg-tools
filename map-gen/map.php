@@ -1,3 +1,8 @@
+<?php
+require_once "script/map-script.php";
+require_once "Grid.php";
+?>
+
 <!doctype html>
 <html lang="en">
 <head>
@@ -12,20 +17,9 @@
 
 <h1>Random Map Generator</h1>
 
-<?php require_once "script/map-script.php"; ?>
-
 <table>
     <?php
-    if (isset($terrainType)) {
-        for ($x = 0; $x < $gridSize; $x++) {
-            echo "<tr>";
-            for ($y = 0; $y < $gridSize; $y++) {
-                echo "<td class=" . $terrainType[$x][$y] . "></td>";
-            }
-            echo "</tr>";
-        }
-        echo "</table>";
-    }
+    $map = new Grid(10, 10)
     ?>
 </table>
 <div class="btn-container">
